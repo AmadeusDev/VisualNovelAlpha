@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\data">
+      <UniqueIdentifier>{b6d839db-8f07-46ad-a4bf-c724a7df75d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\image">
+      <UniqueIdentifier>{770e2b40-4ae4-4fa9-adff-2640ce11eade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\save">
+      <UniqueIdentifier>{652fe909-9776-461e-a2fd-b310c76db729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dialog">
+      <UniqueIdentifier>{d6fb84be-4369-477f-9ed8-31397c6e2c3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game">
+      <UniqueIdentifier>{7cbed835-f73c-4c23-ac2e-bf988620fdb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Load">
+      <UniqueIdentifier>{67461f33-8425-45c7-8728-02c44533f21f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\menu">
+      <UniqueIdentifier>{1c10e154-4fd9-475a-9447-ad335a940030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CentrumUkládání">
+      <UniqueIdentifier>{9101b98b-a20e-4154-9f54-b834fd7fece4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\data\test">
+      <UniqueIdentifier>{e0ea1fe5-0bb6-44ac-a217-3e8cadd9baac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\data\book">
+      <UniqueIdentifier>{6d493391-acaf-469a-b1c1-3e3b77389a97}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Load.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="odkazy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sdílené.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="struktury.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\keys.txt">
+      <Filter>Resource Files\data</Filter>
+    </None>
+    <None Include="data\menu.txt">
+      <Filter>Resource Files\data</Filter>
+    </None>
+    <None Include="data\saves.txt">
+      <Filter>Resource Files\data</Filter>
+    </None>
+    <None Include="data\SETS.txt">
+      <Filter>Resource Files\data</Filter>
+    </None>
+    <None Include="saves\ahoj.txt">
+      <Filter>Resource Files\save</Filter>
+    </None>
+    <None Include="saves\jmén.txt">
+      <Filter>Resource Files\save</Filter>
+    </None>
+    <None Include="saves\nam.txt">
+      <Filter>Resource Files\save</Filter>
+    </None>
+    <None Include="saves\name.txt">
+      <Filter>Resource Files\save</Filter>
+    </None>
+    <None Include="saves\natsu.txt">
+      <Filter>Resource Files\save</Filter>
+    </None>
+    <None Include="hry\0\f0.txt">
+      <Filter>Resource Files\data</Filter>
+    </None>
+    <None Include="hry\0\m0.txt">
+      <Filter>Resource Files\data</Filter>
+    </None>
+    <None Include="hry\0\p0.txt">
+      <Filter>Resource Files\data</Filter>
+    </None>
+    <None Include="hry\0\s0.txt">
+      <Filter>Resource Files\data</Filter>
+    </None>
+    <None Include="KeyTranslate.txt">
+      <Filter>Resource Files\data</Filter>
+    </None>
+    <None Include="hry\Češtinatexts.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="hry\Englishtexts.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="loader.cpp">
+      <Filter>Source Files\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="texter.cpp">
+      <Filter>Source Files\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="Load.cpp">
+      <Filter>Source Files\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="Load_item.cpp">
+      <Filter>Source Files\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="Load_maps.cpp">
+      <Filter>Source Files\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="Load_Persons.cpp">
+      <Filter>Source Files\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="Load_set.cpp">
+      <Filter>Source Files\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="Load_shared.cpp">
+      <Filter>Source Files\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="Load_story.cpp">
+      <Filter>Source Files\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="Saves_Load.cpp">
+      <Filter>Source Files\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="anime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Frames.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="proc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shared.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Load_svs.cpp">
+      <Filter>Source Files\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="game_processing.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>Source Files\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLoader.cpp">
+      <Filter>Source Files\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadFont.cpp">
+      <Filter>Source Files\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="CentrumUkládání.cpp">
+      <Filter>Source Files\CentrumUkládání</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="image\buttons.bmp">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="image\buttony.bmp">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="image\buttony.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="image\key.jpg">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="image\key.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="image\loadgame.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="image\menu_bkg - kopie.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="image\menu_bkg.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="image\newgame.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="image\old_key.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="image\options.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="image\pozadi.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="image\station_bkg.jpg">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="..\..\VN2\VN2\image\newgame.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="..\..\VN2\VN2\image\button.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="..\..\VN2\VN2\menu2.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="..\..\VN2\VN2\button.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="menu.bmp">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\options_bkg.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="openedbook.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="bkgnd2.bmp">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="zadekhaha.bmp">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="image\tlačítko.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\stringSada.bmp">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="hry\0\f1.txt">
+      <Filter>Resource Files\data</Filter>
+    </Text>
+    <Text Include="data\font.txt">
+      <Filter>Resource Files\data</Filter>
+    </Text>
+    <Text Include="saves\sefek2.txt">
+      <Filter>Resource Files\save</Filter>
+    </Text>
+    <Text Include="CoZlepšit.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="hry\test\0\f0.txt">
+      <Filter>Resource Files\data\test</Filter>
+    </Text>
+    <Text Include="hry\test\0\f1.txt">
+      <Filter>Resource Files\data\test</Filter>
+    </Text>
+    <Text Include="hry\test\0\m0.txt">
+      <Filter>Resource Files\data\test</Filter>
+    </Text>
+    <Text Include="hry\test\0\p0.txt">
+      <Filter>Resource Files\data\test</Filter>
+    </Text>
+    <Text Include="hry\test\0\s0.txt">
+      <Filter>Resource Files\data\test</Filter>
+    </Text>
+    <Text Include="saves\sefek.txt">
+      <Filter>Resource Files\save</Filter>
+    </Text>
+    <Text Include="saves\sefek2\main\index.txt">
+      <Filter>Resource Files\save</Filter>
+    </Text>
+    <Text Include="saves\sefek2\test\index.txt">
+      <Filter>Resource Files\save</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

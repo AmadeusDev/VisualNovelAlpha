@@ -1,0 +1,118 @@
+SET +
+
+set: 0
+	image: books.bmp 2 1 20 59
+	save: 0 frame: 33 x: 400 y: -30 w: 232 h: 362
+
+	/*
+	pole: 0
+		x: 70 y: 180 w: 0 h: 25 obraz: 0 VS: 0 
+
+		text: 
+			write: 0 x: 0 y: 0 w: 0 h: 0 size: 0 red: 0 green: 255 za: 1
+		konec:
+		
+		pos:
+			clicked: 0 11
+		konec: 
+		
+		both: lbutton
+			once: 0 14
+		konec:
+		
+	stop:
+	*/
+
+	pole: 1
+		x: 430 y: 10 w: 65 h: 25 obraz: 0 VS: 0
+		obraz_velikost: 430 10 65 25
+		text: 
+			write: ukládání x: 0 y: 0 w: 100 h: 100 size: 20 red: 0 green: 255 za: 1
+		konec:
+		
+		pos:
+			clicked: 0 11
+		konec: 
+		
+		both: lbutton
+			once: 0 22
+		konec:
+		
+	stop:
+
+	pole: 2
+		x: 430 y: 35 w: 65 h: 25 obraz: 0 VS: 0
+		obraz_velikost: 430 35 65 25
+		text: 
+			write: Menu x: 0 y: 0 w: 100 h: 100 size: 20 red: 0 green: 255 za: 1
+		konec:
+		
+		pos:
+			clicked: 0 11
+		konec:
+
+		both: lbutton
+			once: 0 25
+		konec:
+		
+	stop:
+
+konec:
+
+set: 1
+	image: menu2.png 1 2 100 30
+	save: 0 frame: 0 x: 210 y: 130 w: 100 h: 30 druh: 1
+	pole: 0
+		x: 445 y: 295 w: 100 h: 30 obraz: 0
+		obraz_velikost: 445 295 100 30
+		OøíznoutObrázek: 0% 50% 100% 50%
+		
+		text: 
+			write: nothing x: 10 y: 5 w: 50 h: 0 size: 20 red: 255 za: 0
+		konec:
+
+		change:
+			druh: 0 v: 2 který: 1
+			text_vypiš: ahoj_svìte text_x: 74 text_y: 323 text_w: 10 text_h: 100 text_s: 20 text_sw: 0 text_bef: 0 text_r: 255 text_g: 255 text_b: 255
+		stop:
+
+		pos:
+			clicked: 0 0
+		konec: 
+		
+		both: lbutton
+			once: 0 19 1
+		konec:
+		
+	stop:
+
+konec:
+
+set: 2
+	image: menu2.png 1 2 100 30
+	save: 0 frame: 0 x: 210 y: 130 w: 100 h: 30 druh: 1
+	pole: 0
+		x: 210 y: 130 w: 100 h: 30 obraz: 0
+		obraz_velikost: 210 130 100 30
+		OøíznoutObrázek: 0% 50% 100% 50%
+
+		text: 
+			write: nothing x: 10 y: 5 w: 50 h: 0 size: 20 red: 255 za: 0
+		konec:
+
+		change:
+			druh: 0 v: 4 který: 1
+			text_vypiš: ahoj_svìte text_x: 74 text_y: 323 text_w: 100 text_h: 100 text_s: 20 text_sw: 0 text_bef: 0 text_r: 255 text_g: 255 text_b: 255
+		stop:
+
+		pos:
+			clicked: 0 0
+		konec: 
+		
+		both: lbutton
+			once: 0 19 1
+		konec:
+		
+	stop:
+
+konec:

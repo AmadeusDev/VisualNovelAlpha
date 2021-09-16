@@ -1,0 +1,32 @@
+FONT
+
+font: string image/stringSada.bmp 16 16 16 16
+
+VP: 49 6v
+VP: 50 9v
+VP: 51 9v
+VP: 97 - 122 7v
+VP: 224 - 239 7v
+VP: 144 - 159 8v
+VP: 240 - 255 8v
+VP: 65 - 90 8v
+VP: 116  4v
+VP: 129  2v
+VP: 44   3v
+VP: 99   6v
+VP: 236  8v
+VP: 32   8v
+VP: 101  7v
+VP: 102  3v
+VP: 105  3v
+VP: 106  3v
+VP: 107  7v
+VP: 108  3v
+VP: 109	 11v
+VP: 114  5v
+VP: 118  6v
+VP: 111  7v
+VP: 253  8v
+VP: 237  3v
+VP: 248  5v
+VP: 200  8v

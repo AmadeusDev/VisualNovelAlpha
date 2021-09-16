@@ -1,0 +1,6 @@
+
+
+person: 0
+	image: 0 menu.bmp 1 2 48 16
+	sex: 0 age: 19 name: dobrej save: 32
+konec:

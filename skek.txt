@@ -1,0 +1,5 @@
+language: English
+story: 0 0 0
+persons: 0 0
+maps: 0 0 0
+NameOfBook: main

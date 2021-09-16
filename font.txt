@@ -1,0 +1,3 @@
+FONT
+
+font: string image/stringSada.bmp 16 16 16 16

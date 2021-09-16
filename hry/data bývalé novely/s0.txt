@@ -1,0 +1,130 @@
+
+story: 0
+	map: 0 frame: 0 save: 10 NaèístSave: 0 1 druh: 5001 naèíst_mapu: 0
+konec:
+
+story: 1
+	map: 0 frame: -1 save: 10 druh: 8002 naèíst_mapu: 0 
+	text: 
+		write: #0 druh: 10 x: 10 y: 7 w: 900 h: 100 size: 20 red: 255 blue: 255 green: 255 za: 0
+	konec:
+	answer:
+		text:
+			write: #7 druh: 11 x: 10 y: 32 w: 900 h: 15 size: 20 red: 255 blue: 255 green: 255 za: 0
+		konec:
+		next: 2
+
+	konec:
+
+	answer:
+		text:
+			write: #8 druh: 11 x: 10 y: 57 w: 900 h: 15 size: 20 red: 255 blue: 255 green: 255 za: 0
+		konec:
+		next: 2
+
+	konec:
+konec:
+
+story: 2
+	map: 0 frame: -1 save: 10 druh: 8003 naèíst_mapu: 0
+	text: 
+		write: #1 druh: 10 x: 10 y: 7 w: 900 h: 100 size: 20 red: 255 blue: 255 green: 255 za: 0
+	konec:
+	
+	answer:
+		text:
+			write: #9 druh: 11 x: 10 y: 57 w: 900 h: 15 size: 20 red: 255 blue: 255 green: 255 za: 0
+		konec:
+		next: 1
+
+	konec:
+konec:
+
+story: 3
+	map: 0 frame: -1 save: 10 druh: 8004 naèíst_mapu: 0
+	text: 
+		write: #2 druh: 10 x: 10 y: 7 w: 900 h: 100 size: 20 red: 255 blue: 255 green: 255 za: 0
+	konec:
+	
+
+story: 2
+	map: 0 frame: -1 save: 10 druh: 8003 naèíst_mapu: 0
+	text: 
+		write: #1 druh: 10 x: 10 y: 7 w: 900 h: 100 size: 20 red: 255 blue: 255 green: 255 za: 0
+	konec:
+	
+	answer:
+		text:
+			write: #9 druh: 11 x: 10 y: 57 w: 900 h: 15 size: 20 red: 255 blue: 255 green: 255 za: 0
+		konec:
+		next: 1
+
+	konec:
+konec:
+konec:
+
+story: 4
+	map: 0 frame: -1 save: 10 druh: 8005 naèíst_mapu: 0
+	text: 
+		write: #3 druh: 10 x: 10 y: 7 w: 900 h: 100 size: 20 red: 255 blue: 255 green: 255 za: 0
+	konec:
+konec:
+
+story: 5
+	map: 0 frame: -1 save: 10 druh: 8006 naèíst_mapu: 0
+	text: 
+		write: #4 druh: 10 x: 10 y: 7 w: 900 h: 100 size: 20 red: 255 blue: 255 green: 255 za: 0
+	konec:
+konec:
+
+story: 6
+	map: 0 frame: -1 save: 10 druh: 8007 naèíst_mapu: 0
+	text: 
+		write: #5 druh: 10 x: 10 y: 7 w: 900 h: 100 size: 20 red: 255 blue: 255 green: 255 za: 0
+	konec:
+konec:
+
+story: 7
+	map: 0 frame: -1 save: 10 druh: 8007 naèíst_mapu: 0
+	text: 
+		write: #6 druh: 10 x: 10 y: 7 w: 900 h: 100 size: 20 red: 255 blue: 255 green: 255 za: 0
+	konec:
+konec:
+
+/*
+story: 1
+	map: 1 frame: -1 save: 10 coor: 0 0 druh: 8000
+	text:
+		write: #1 druh: 11 x: 10 y: 7 w: 900 h: 100 size: 20 red: 255 blue: 255 green: 255 za: 0
+	konec:
+
+	person:
+		id: 0 frame: 0 condition: 0 rect: 100 100 300 300 coor: 0 0 save: 32
+	konec:
+
+	answer:
+		text:
+			write: #2 druh: 11 x: 10 y: 57 w: 900 h: 15 size: 20 red: 255 blue: 255 green: 255 za: 0
+		konec:
+		next: 0
+
+	konec:
+
+konec:
+
+story: 2
+	map: 1 frame: -1 save: 10 druh: 8000 naèíst_mapu: 1
+	text: 
+		write: hello_world druh: 11 x: 10 y: 7 w: 900 h: 100 size: 20 red: 255 blue: 255 green: 255 za: 0
+	konec:
+
+	answer:
+		text:
+			write: zpìt druh: 11 x: 10 y: 57 w: 900 h: 100 size: 20 red: 255 blue: 255 green: 255 za: 0
+		konec:
+		next: 0
+
+	konec:
+
+konec:
+*/

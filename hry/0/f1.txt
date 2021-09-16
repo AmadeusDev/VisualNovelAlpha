@@ -1,0 +1,60 @@
+
+image: 0 menu.bmp 1 1 1 1
+
+frame: 0
+	obraz: -1 rám: 0 další: 1000 doba: 1 druh: 100 GS: 100 BS: 100 RS: 100 VS: 100 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100
+	anime: 0
+		x: 0 y: 0 w: 990 h: 500 save: 10 frame: 1
+	konec:
+konec:
+
+frame: 1
+	obraz: 0 rám: 0 pùvodní: 1 další: 2 doba: 2 druh: 100 GS: 100 BS: 100 RS: 100 VS: 100 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100
+konec:
+
+frame: 2
+	obraz: 0 rám: 0 pùvodní: 1 další: 3 doba: 2 druh: 100 GS: 100 BS: 100 RS: 100 VS: 90 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100
+konec:
+
+frame: 3
+	obraz: 0 rám: 0 pùvodní: 1 další: 4 doba: 2 druh: 100 GS: 100 BS: 100 RS: 100 VS: 80 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100
+konec:
+
+frame: 4
+	obraz: 0 rám: 0 pùvodní: 1 další: 5 doba: 2 druh: 100 GS: 100 BS: 100 RS: 100 VS: 70 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100
+konec:
+
+frame: 5
+	obraz: 0 rám: 0 pùvodní: 1 další: 6 doba: 2 druh: 100 GS: 100 BS: 100 RS: 100 VS: 60 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100
+konec:
+
+frame: 6
+	obraz: 0 rám: 0 pùvodní: 1 další: 7 doba: 2 druh: 100 GS: 100 BS: 100 RS: 100 VS: 50 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100
+konec:
+
+frame: 7
+	obraz: 0 rám: 0 pùvodní: 1 další: 8 doba: 2 druh: 100 GS: 100 BS: 100 RS: 100 VS: 40 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100
+konec:
+
+frame: 8
+	obraz: 0 rám: 0 pùvodní: 1 další: 9 doba: 2 druh: 100 GS: 100 BS: 100 RS: 100 VS: 30 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100
+konec:
+
+frame: 9
+	obraz: 0 rám: 0 pùvodní: 1 další: 10 doba: 2 druh: 100 GS: 100 BS: 100 RS: 100 VS: 20 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100
+konec:
+
+frame: 10
+	obraz: 0 rám: 0 pùvodní: 1 další: 1000 doba: 2 druh: 100 GS: 100 BS: 100 RS: 100 VS: 10 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100
+konec:

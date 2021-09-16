@@ -1,0 +1,278 @@
+MENU
+
+ingame_menu: 4
+
+menu: 0
+	image: image/buttony.png 3 2 332 242
+	pozadí: zadekhaha.bmp 990 500
+	/*sound: sounds/lilith.mp3 */
+
+
+	pole: 0
+		x: 250 y: 400 w: 300 h: 210 typ: 2 obraz: 0
+		obraz_velikost: 250 400 300 210
+		OøíznoutObrázek: 0 50% 30% 50%
+		
+		pos: 
+			clicked: 0 0
+		konec:
+
+		both: lbutton
+			once: 0 6
+		konec:
+	stop:
+
+	pole: 1
+		x: 950 y: 168 w: 300 h: 70 typ: 2 obraz: 1
+		obraz_velikost: 950 168 300 210
+		OøíznoutObrázek: 30% 50% 30% 50%
+		pos: 
+			clicked: 0 5
+		konec:
+		
+		both: lbutton
+			once: 0 2 1
+		konec:
+		
+		change:
+			druh: 30 
+		stop:
+
+	stop:
+
+
+	pole: 2
+		x: 950 y: 258 w: 300 h: 70 typ: 2 obraz: 2
+		obraz_velikost: 950 268 300 210
+		OøíznoutObrázek: 60% 50% 30% 50%
+
+		pos:
+			clicked: 0 5
+		konec:
+
+		both: lbutton
+			once: 0 8 
+		konec:
+	stop:
+
+konec:
+
+
+menu: 1
+	
+	image: image/kolecko.bmp 2 1 500 500
+	pozadí: image/options_bkg.png 990 500
+	/* sound: sounds/neco.mp3 */
+
+	pole: 0
+		x: 0 y: 0 w: 150 h: 150 obraz: 0
+		obraz_velikost: 0 0 150	150
+		OøíznoutObrázek: 0% 0% 50% 100%
+
+		pos:
+			clicked: 0 0
+		konec: 
+
+		both: lbutton
+			once: 0 30
+		konec:
+
+	stop:
+
+	pole: 1
+		x: 775 y: 30 w: 110 h: 30 obraz: 1
+		obraz_velikost: 750 20 225 200
+		OøíznoutObrázek: 50% 0% 50% 100%
+
+		pos:
+			clicked: 0 0
+		konec: 
+
+		text: 
+			write: Zpìt x: 42 y: 5 w: 100 h: 100 size: 20 red: 255 blue: 255 green: 0 za: 0
+		konec:
+
+		both: lbutton
+			once: 0 15
+		konec:
+
+	stop:
+konec:
+
+
+menu: 2
+	
+	image: button.bmp 1 2 100 30
+	pozadí: image/new_game_bkg_notxt.png 990 500
+	
+	pole: 0
+		
+		x: 335 y: 245 w: 100 h: 30 obraz: 0
+		obraz_velikost: 335 265 100 30
+		OøíznoutObrázek: 50% 50% 50% 50%
+
+		change:
+			druh: 10 v: 2 který: 0 
+			text_vypiš: ahoj_svìte text_x: 74 text_y: 323 text_w: 100 text_h: 100 text_s: 15 text_sw: 15 text_bef: 0 text_r: 255 text_g: 50 text_b: 50
+		stop:
+
+		text: 
+			write: jméno x: 27 y: 25 w: 100 h: 100 size: 20 red: 255 blue: 255 green: 255 za: 0
+		konec:
+		
+		pos:
+			clicked: 0 0
+		konec: 
+		
+		both: lbutton
+			once: 0 19 1
+		konec:
+
+	stop:
+	
+	pole: 1
+		
+		x: 445 y: 245 w: 100 h: 30 obraz: 0
+		obraz_velikost: 445 265 100 30
+		OøíznoutObrázek: 50% 50% 50% 50%
+
+		text: 
+			write: jazyk x: 30 y: 25 w: 100 h: 100 size: 20 red: 255 blue: 255 green: 255 za: 0
+		konec:
+		
+		pos:
+			clicked: 0 0
+		konec: 
+		
+		both: lbutton
+			once: 0 18
+		konec:
+
+	stop:
+	
+	pole: 2
+		
+		x: 555 y: 245 w: 100 h: 30 obraz: 0
+		obraz_velikost: 555 265 100 30
+		OøíznoutObrázek: 50% 50% 50% 50%
+
+		change:
+			druh: 20 v: 2
+		stop:
+
+		text: 
+			write: hra x: 37 y: 25 w: 100 h: 100 size: 20 red: 255 blue: 255 green: 255 za: 0
+		konec:
+		
+		pos:
+			clicked: 0 0
+		konec: 
+		
+		both: lbutton
+			once: 0 20 1
+		konec:
+
+	stop:
+	
+	pole: 3
+		
+		x: 445 y: 205 w: 100 h: 30 obraz: 0
+		obraz_velikost: 445 225 100 30
+		OøíznoutObrázek: 50% 50% 50% 50%
+
+		text: 
+			write: zpìt x: 33 y: 25 w: 100 h: 100 size: 20 red: 255 blue: 255 green: 255 za: 0
+		konec:
+		
+		pos:
+			clicked: 0 0
+		konec: 
+		
+		both: lbutton
+			once: 0 7
+		konec:
+
+	stop:
+
+konec:
+
+menu: 3
+	image: menu2.png 1 2 100 30
+	pozadí: bkgnd2.bmp 2 2
+	
+	pole: 0
+		
+		x: 100 y: 100 w: 100 h: 30 obraz: 0
+
+		change:
+			druh: 10 v: 3 který: 0 
+			text_vypiš: ahoj_svìte text_x: 74 text_y: 323 text_w: 100 text_h: 100 text_s: 15 text_sw: 15 text_bef: 0 text_r: 255 text_g: 50 text_b: 50
+		stop:
+
+		text: 
+			write: jméno x: 10 y: 7 w: 100 h: 100 size: 15 red: 155 blue: 2 green: 6 za: 0
+		konec:
+		
+		pos:
+			clicked: 0 4
+		konec: 
+		
+		both: lbutton
+			once: 0 19 1
+		konec:
+
+	stop:
+
+konec:
+
+
+menu: 4
+	
+	image: button.bmp 1 2 100 30
+	pozadí: zadekhaha.bmp 990 500
+	
+	pole: 0
+		
+		x: 320 y: 100 w: 100 h: 30 obraz: 0
+		obraz_velikost: 320 100 100 30
+		OøíznoutObrázek: 50% 50% 50% 50%
+
+		change:
+			druh: 40 
+		stop:
+
+		text: 
+			write: zpìt x: 10 y: 5 w: 100 h: 100 size: 20 red: 255 blue: 255 green: 255 za: 0
+		konec:
+		
+		pos:
+			clicked: 0 0
+		konec: 
+		
+		both: lbutton
+			once: 0 20 1
+		konec:
+
+	stop:
+
+	pole: 1
+		
+		x: 210 y: 100 w: 100 h: 30 obraz: 0
+		obraz_velikost: 210 100 100 30
+		OøíznoutObrázek: 50% 50% 50% 50%
+
+		text: 
+			write: jazyk x: 10 y: 5 w: 100 h: 100 size: 20 red: 255 blue: 255 green: 255 za: 0
+		konec:
+		
+		pos:
+			clicked: 0 0
+		konec: 
+		
+		both: lbutton
+			once: 0 24
+		konec:
+
+	stop:
+
+konec:

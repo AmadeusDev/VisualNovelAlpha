@@ -1,0 +1,220 @@
+SAVES 0
+
+image: 0 menu.bmp 1 2 48 16
+image: 1 openedbook.png 4 1 81 192
+image: 2 image/key.bmp 1 1 282 179
+image: 3 image/tabulka.bmp 1 1 232 362
+
+
+frame: 5
+	obraz: -1 rám: 0 další: 5 doba: 2 druh: 1 GS: 100 BS: 100 RS: 100 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100
+	anime: 0
+		x: -1 y: -50 w: 300 h: 150 save: 0 frame: 1
+	konec:
+konec:
+
+frame: 1
+	obraz: 2 další: 1000 doba: 1 druh: 1 GS: 100 BS: 100 RS: 100 VS: 50 centrumx: 0 centrumy: -90 posunx: 0 posuny: 0
+	OøíznoutObrázek: 0 0 100% 100%
+	dìlitelw: 120 dìlitelh: 75
+konec:
+
+frame: 2
+	obraz: -1 rám: 0 další: 1000 doba: 2 druh: 1 GS: 100 BS: 100 RS: 100 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100
+	anime: 0
+		x: 720 y: 188 w: 50 h: 25 save: 0 frame: 3
+	konec:
+konec:
+
+frame: 3
+	obraz: 2 rám: 0 další: 1000 doba: 1 druh: 1 GS: 50 BS: 100 RS: 50 VS: 50 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 80 dìlitelh: 50
+konec:
+
+
+frame: 4
+	obraz: 2 rám: 0 další: 1000 doba: 1 druh: 1 GS: 50 BS: 100 RS: 50 VS: 50 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 80 dìlitelh: 50
+konec:
+
+
+frame: 0
+	obraz: -1 rám: 0 další: 0 doba: 2 druh: 1 GS: 79 BS: 6 RS: 100 VS: 100 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100 další_menu: -1
+konec:
+
+
+frame: 6
+	obraz: -1 rám: 0 další: 1000 doba: 2 druh: 1 GS: 50 BS: 100 RS: 50 VS: 100 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100 další_menu: 2 
+konec:
+
+frame: 7
+	obraz: -1 rám: 0 další: 1000 doba: 2 druh: 1 GS: 50 BS: 100 RS: 50 VS: 100 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100 další_menu: 0
+konec:
+
+frame: 8
+	obraz: -1 rám: 0 další: 1000 doba: 2 druh: 1 GS: 50 BS: 100 RS: 50 VS: 100 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100 další_menu: 1
+konec:
+
+/*
+
+frame: 5
+	obraz: 1 rám: 3 další: 1000 doba: 0 druh: 1 GS: 50 BS: 100 RS: 50 VS: 30 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100 pùvodní: 1
+	
+	anime: 0
+		x: 132 y: 100 w: 50 h: 50 save: 0 frame: 6 
+	konec:
+
+	anime: 1
+		x: 208 y: 100 w: 50 h: 50 save: 0 frame: 7 
+	konec:
+
+	anime: 2
+		x: 226 y: 100 w: 50 h: 50 save: 0 frame: 7 zrcadlení: 1
+	konec:
+konec:
+
+frame: 6
+	obraz: 1 rám: 1 další: 1000 doba: 10 druh: 1 GS: 100 BS: 100 RS: 100 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 200 dìlitelh: 200 set: 0
+konec:
+
+frame: 7
+	obraz: -2 rám: 2 další: 12 doba: 2 druh: 1 GS: 50 BS: 50 RS: 50 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 50 dìlitelh: 200 zrcadlení: 1 set: -1
+konec:
+
+*/
+/*
+frame: 12
+	obraz: 1 rám: 2 další: 8 doba: 2 druh: 1 GS: 50 BS: 50 RS: 50 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 50 dìlitelh: 200 zrcadlení: 1
+konec:
+
+frame: 8
+	obraz: 1 rám: 2 další: 9 doba: 2 druh: 1 GS: 75 BS: 75 RS: 75 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100 dìlitelh: 200 zrcadlení: 1
+konec:
+
+frame: 9
+	obraz: 1 rám: 2 další: 10 doba: 2 druh: 1 GS: 80 BS: 80 RS: 80 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 150 dìlitelh: 200 zrcadlení: 1
+konec:
+
+frame: 10
+	obraz: 1 rám: 2 další: 1000 doba: 2 druh: 1 GS: 100 BS: 100 RS: 100 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 200 dìlitelh: 200 zrcadlení: 1
+konec:
+
+frame: 13 
+	obraz: 1 rám: 3 další: 1000 doba: 1 druh: 1 GS: 50 BS: 100 RS: 50 VS: 30 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100 pùvodní: 1
+konec:
+
+
+frame: 16
+	obraz: 2 rám: 0 další: 16 doba: 1 druh: 1 GS: 100 BS: 100 RS: 100 VS: 100 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 200 dìlitelh: 200
+konec:
+
+frame: 17
+	obraz: -1 rám: 0 další: 1000 doba: 2 druh: 1 GS: 100 BS: 100 RS: 100 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100 další_menu: 2
+	anime: 0
+		x: 720 y: 70 w: 50 h: 25 save: 0 frame: 2
+	konec:
+konec:
+*/
+
+frame: 11 
+	obraz: 1 rám: 3 další: 11 doba: 1 druh: 1 GS: 50 BS: 100 RS: 50 VS: 60 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100 pùvodní: 1
+konec:
+
+frame: 14 
+	obraz: 1 rám: 3 další: 1000 doba: 1 druh: 3 GS: 50 BS: 100 RS: 50 VS: 30 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100 pùvodní: 1
+konec:
+
+
+frame: 15
+	obraz: -1 rám: 0 další: 1000 doba: 1 druh: 1 GS: 50 BS: 100 RS: 50 VS: 100 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100 dìlitelh: 100 další_menu: 0 
+konec:
+
+frame: 18
+	obraz: -1 rám: 0 další: 26 doba: 2 druh: 1 GS: 25 BS: 25 RS: 25 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100 set: 1
+konec:
+
+frame: 26
+	obraz: -1 rám: 0 další: 1000 doba: 2 druh: 1 GS: 79 BS: 6 RS: 100 VS: 100 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100 
+konec:
+
+frame: 19
+	obraz: -1 rám: 0 další: 1000 doba: 2 druh: 1 GS: 50 BS: 100 RS: 50 VS: 100 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100
+konec:
+
+frame: 20
+	obraz: -1 rám: 0 další: 1000 doba: 1 druh: 1 GS: 100 BS: 100 RS: 100 VS: 100 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100
+konec:
+
+frame: 21
+	obraz: -1 rám: 0 další: 1000 doba: 2 druh: 1 GS: 25 BS: 25 RS: 25 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 25
+konec:
+
+
+frame: 22
+	obraz: 1 rám: 3 další: 1000 doba: 1 druh: 4 GS: 50 BS: 100 RS: 50 VS: 30 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100 pùvodní: 1
+konec:
+
+frame: 23
+	obraz: -1 rám: 0 další: 1000 doba: 1 druh: 1 GS: 100 BS: 100 RS: 100 VS: 100 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100 další_menu: 0
+konec:
+
+frame: 24
+	obraz: -1 rám: 0 další: 1000 doba: 2 druh: 1 GS: 25 BS: 25 RS: 25 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100 set: 2
+konec:
+
+frame: 25
+	obraz: 1 rám: 3 další: 1000 doba: 1 druh: 5 GS: 50 BS: 100 RS: 50 VS: 30 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100 pùvodní: 1
+konec:
+
+frame: 30
+	obraz: -1 rám: 0 další: 1000 doba: 1 druh: 1 GS: 100 BS: 100 RS: 100 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100
+	anime: 0
+		x: 400 y: 0 w: 232 h: 362 save: 0 frame: 31
+	konec:
+konec:
+
+frame: 31
+	obraz: 3 rám: 0 další: 32 doba: 16 druh: 1 GS: 100 BS: 100 RS: 100 VS: 100 centrumx: 0 centrumy: -362 posunx: 0 posuny: 20
+	dìlitelw: 100 pùvodní: 1
+	OøíznoutObrázek: 0 0 100% 100%
+konec:
+
+frame: 32
+	obraz: 3 rám: 0 další: 1000 doba: 1 druh: 1 GS: 100 BS: 100 RS: 100 VS: 100 centrumx: 0 centrumy: -362 posunx: 0 posuny: 0
+	dìlitelw: 100 pùvodní: 1 set: 0
+	OøíznoutObrázek: 0 0 100% 100%
+konec:
+
+frame: 33
+	obraz: 3 rám: 0 další: 33 doba: 1 druh: 1 GS: 100 BS: 100 RS: 100 VS: 100 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	pùvodní: 1 	OøíznoutObrázek: 0 0 100% 100%
+konec:

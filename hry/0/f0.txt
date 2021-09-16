@@ -1,0 +1,48 @@
+image: 0 menu.bmp 1 2 48 16
+image: 1 openedbook.png 4 1 81 192
+image: 2 image/key.bmp 1 1 282 179
+image: 3 image/tabulka.bmp 1 1 232 362
+
+frame: 0
+	obraz: -1 rám: 0 další: 1 doba: 2 druh: 100 GS: 75 BS: 75 RS: 75 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 25
+konec:
+
+frame: 1
+	obraz: -1 rám: 0 další: 1000 doba: 2 druh: 100 GS: 75 BS: 75 RS: 75 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 75
+konec:
+
+frame: 2
+	obraz: -1 rám: 0 další: 3 doba: 2 druh: 100 GS: 75 BS: 75 RS: 75 VS: 50 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 25
+konec:
+
+frame: 3
+	obraz: -1 rám: 0 další: 4 doba: 2 druh: 100 GS: 75 BS: 75 RS: 75 VS: 50  centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 50
+konec:
+
+frame: 4
+	obraz: -1 rám: 0 další: 1000 doba: 2 druh: 100 GS: 75 BS: 75 RS: 75 VS: 50  centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 75 OtevøítKnihu: test
+konec:
+
+frame: 5
+	obraz: -1 rám: 0 další: 1000 doba: 1 druh: 1010 GS: 75 BS: 75 RS: 75 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 75 idM: 1
+konec:
+
+frame: 5
+	obraz: -1 rám: 0 další: 1000 doba: 1 druh: 1010 GS: 75 BS: 75 RS: 75 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 75 idM: 1
+konec:
+
+frame: 6
+	obraz: 1 rám: 3 další: 6 doba: 1 druh: 1 GS: 50 BS: 100 RS: 50 VS: 50 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 100 pùvodní: 0 w: 80 h: 25
+	OøíznoutObrázek: 60% 0% 1% 1%
+	text: 
+		write: kniha_1 x: -5 y: -15 w: 80 h: 25 size: 20 red: 255 blue: 255 green: 255 za: 0
+	konec:
+konec:

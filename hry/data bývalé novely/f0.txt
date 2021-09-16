@@ -1,0 +1,30 @@
+
+frame: 0
+	obraz: -1 rám: 0 další: 1 doba: 2 druh: 100 GS: 75 BS: 75 RS: 75 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 25
+konec:
+
+frame: 1
+	obraz: -1 rám: 0 další: 1000 doba: 2 druh: 100 GS: 75 BS: 75 RS: 75 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 75
+konec:
+
+frame: 2
+	obraz: -1 rám: 0 další: 3 doba: 2 druh: 100 GS: 75 BS: 75 RS: 75 VS: 50 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 25
+konec:
+
+frame: 3
+	obraz: -1 rám: 0 další: 4 doba: 2 druh: 100 GS: 75 BS: 75 RS: 75 VS: 50  centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 50
+konec:
+
+frame: 4
+	obraz: -1 rám: 0 další: 4 doba: 2 druh: 100 GS: 75 BS: 75 RS: 75 VS: 50  centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 75 OtevøítKnihu: test
+konec:
+
+frame: 5
+	obraz: -1 rám: 0 další: 1000 doba: 1 druh: 1010 GS: 75 BS: 75 RS: 75 centrumx: 0 centrumy: 0 posunx: 0 posuny: 0
+	dìlitelw: 75 idM: 1
+konec:

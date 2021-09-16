@@ -1,0 +1,28 @@
+
+map: 0
+	pozadí: image/bookself.png rozložení: 990 500
+	image: menu2.png 1 2 100 30
+
+	coor: 0 0
+	save: 5
+	
+	object: 0
+		x: 189 y: 187 w: 30 h: 60 obraz: 0 druh: 1
+		obraz_velikost: 189 187 0 30
+
+		pos:
+			clicked: 5 6
+		konec:
+
+		both: lbutton
+			once: 5 4
+		konec:
+
+	stop:
+
+konec:
+
+map: 1
+	pozadí: knihovna.png rozložení: 500 500
+	
+konec:
